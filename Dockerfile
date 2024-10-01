@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.13.0rc2-slim
 ADD azure-dns-updater.py /
 RUN pip install --upgrade pip
 RUN pip install azure-common
